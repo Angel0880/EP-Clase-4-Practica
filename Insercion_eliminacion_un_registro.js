@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize('EP', 'root', '', {
     host: 'localhost',
-    dialect: 'mysql2' /* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */
+    dialect: 'mysql' /* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */
 });
 
 sequelize
